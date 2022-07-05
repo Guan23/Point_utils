@@ -1,4 +1,7 @@
 # Point_utils
+
+依赖：pypcd（主要是用来读取robosense的pcd点云）
+
 1、此工程涵盖了各种三维语义分割点云数据集的预处理，主要是不同数据集之间的格式转换。
 主要格式有：semanticKITTI、semanticPOSS、livox_horizon、robosense32、sseditor（日立的那个标注工具）
 这里定义两个基准，训练时，把数据格式都转成semanticKITTI的格式，标注时都转成sseditor的格式。
